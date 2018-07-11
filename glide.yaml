@@ -1,0 +1,9 @@
+package: gin-app
+import:
+- package: github.com/gin-gonic/gin
+- package: github.com/gin-contrib/sse
+- package: github.com/mattn/go-isatty
+- package: github.com/ugorji/go/codec
+- package: gopkg.in/go-playground/validator.v8
+- package: gopkg.in/yaml.v2
+- package: github.com/garyburd/redigo/redis
